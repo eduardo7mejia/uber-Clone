@@ -1,4 +1,4 @@
-// console.log("Iniciando...");
+ console.log("Iniciando...");
 fetch("https://randomuser.me/api/?results=12")
 .then((resp)=>resp.json())
 .then((data)=>{
