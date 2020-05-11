@@ -11,7 +11,7 @@ fetch("https://randomuser.me/api/?results=12")
         console.log(usuarios[i]);
     }
     console.log("---");
-    console.log("++++");
+    console.log("++");
     for (const key in usuarios) {
         console.log(usuarios[key])
     }
