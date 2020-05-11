@@ -1,14 +1,16 @@
+// console.log("Iniciando...");
 fetch("https://randomuser.me/api/?results=12")
 .then((resp)=>resp.json())
 .then((data)=>{
     let contenedorUsuarios = document.getElementById("contenedorUsuarios");
     let usuarios = data.results;
     // console.log(contenedorUsuarios);
-    // console.log(usuarios)
-
+    // console.log(usuarios);
+    // console.log("---");
     // for(let i = 0; i < usuarios.length ; i++){
     //     console.log(usuarios[i]);
     // }
+    // console.log("---");
     // for (const key in usuarios) {
     //     console.log(usuarios[key])
     // }
@@ -27,6 +29,5 @@ fetch("https://randomuser.me/api/?results=12")
         </div>`;
         console.log(usuario);
     });
-
 })
 .catch((error)=>console.error(error));
