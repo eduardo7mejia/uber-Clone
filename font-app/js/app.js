@@ -4,16 +4,17 @@ fetch("https://randomuser.me/api/?results=12")
 .then((data)=>{
     let contenedorUsuarios = document.getElementById("contenedorUsuarios");
     let usuarios = data.results;
-    // console.log(contenedorUsuarios);
-    // console.log(usuarios);
-    // console.log("---");
-    // for(let i = 0; i < usuarios.length ; i++){
-    //     console.log(usuarios[i]);
-    // }
-    // console.log("---");
-    // for (const key in usuarios) {
-    //     console.log(usuarios[key])
-    // }
+    console.log(contenedorUsuarios);
+    console.log(usuarios);
+    console.log("---");
+    for(let i = 0; i < usuarios.length ; i++){
+        console.log(usuarios[i]);
+    }
+    console.log("---");
+    console.log("++++");
+    for (const key in usuarios) {
+        console.log(usuarios[key])
+    }
 
     contenedorUsuarios.innerHTML = "";
     usuarios.forEach((usuario,indice) => {
