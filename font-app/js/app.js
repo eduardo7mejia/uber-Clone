@@ -15,7 +15,6 @@ fetch("https://randomuser.me/api/?results=12")
     for (const key in usuarios) {
         console.log(usuarios[key])
     }
-
     contenedorUsuarios.innerHTML = "";
     usuarios.forEach((usuario,indice) => {
         contenedorUsuarios.innerHTML += `<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
