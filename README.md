@@ -2,6 +2,7 @@
 
 En este repositorio se incluye el código, de una app similar a uber.
 Eduardo Mejia ...
+Thanks
 
 ![Portada del proyecto](assets/cover.png)
 
