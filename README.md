@@ -1,8 +1,8 @@
 # Clone de uber 
 
 En este repositorio se incluye el código, de una app similar a uber.
-Eduardo Mejia ...
-Thanks
+* Eduardo Mejia ...
+* Thanks
 
 ![No disponible](assets/uber-clone.png)
 
@@ -22,6 +22,8 @@ Thanks
 
 * [bootstrap watch](https://bootswatch.com/)
 
+# Plantilla admin LTE
+* [Plantilla](https://adminlte.io/)
 # Extras
 
 * [Visual Studio Code](https://code.visualstudio.com/)
