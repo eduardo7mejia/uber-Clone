@@ -11,8 +11,12 @@
           event.stopPropagation();
           if (form.checkValidity()) {
               let formData = new FormData(forms[0]);
-              console.log(formData.get("email"));
-          console.log("Formulario validado");
+          //     console.log(formData.get("email"));
+          // console.log("Formulario validado");
+          fetch("",{
+            method: "POST",
+            body: formData
+          }).then((resp)=>resp.json()).then((data)=>console.log((data))).catch((e)=>console.error((e)));
         }
         form.classList.add('was-validated');
       }, false);
